@@ -3,7 +3,7 @@
 
 Name: %{fontname}-fonts
 Version: 2.000
-Release: 10%{?dist}
+Release: 11%{?dist}
 Summary: Font for Nepali language
 Group: User Interface/X
 License: GPL+
@@ -61,6 +61,9 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.000-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.000-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
